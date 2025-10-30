@@ -50,3 +50,9 @@
     height: 20px;
     width: 20px;
 }
+
+/* Cursor visible como enlace en el sidebar */
+.sidebar .nav .nav-item:hover,
+.sidebar .nav .nav-item .nav-link:hover {
+    cursor: pointer;
+}

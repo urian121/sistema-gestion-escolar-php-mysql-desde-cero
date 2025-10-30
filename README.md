@@ -1,8 +1,7 @@
-# Sistema Gestion Escolar con PHP y MySQL
+# Sistema de Gestión Escolar con PHP y MySQL
 
-###### Este proyecto es un sistema de gestión escolar desarrollado en **PHP** y **MySQL**, diseñado para administrar de manera eficiente la información de una institución educativa. Incluye módulos completos para gestionar grados (cursos), materias, estudiantes y profesores, además de permitir la asignación de materias a cada profesor. También cuenta con un módulo de generación de reportes en formato XLS y funcionalidades de registro y autenticación de usuarios. Este CRUD integral ofrece una solución práctica y educativa para dominar PHP y MySQL, ideal para proyectos de aprendizaje y gestión escolar.
+Sistema integral de gestión escolar desarrollado con PHP y MySQL que permite administrar de manera eficiente todos los aspectos académicos y administrativos de una institución educativa. La plataforma ofrece una interfaz web moderna y responsiva para la gestión completa de estudiantes, profesores, materias, grados y asignaciones académicas.
 
-## Resultado
 ![demo](https://github.com/urian121/imagenes-proyectos-github/blob/master/app-sistema-gestion-escolar-php-mysql-desde-cero.png)
 
 ### Expresiones de Gratitud 🎁

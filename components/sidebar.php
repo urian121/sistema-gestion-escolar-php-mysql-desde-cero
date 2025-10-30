@@ -33,12 +33,12 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
+                <a class="nav-link" data-bs-toggle="collapse" href="#otro-modulo" aria-expanded="false" aria-controls="otro-modulo">
                     <i class="mdi mdi-contacts menu-icon"></i>
                     <span class="menu-title">Otro Modulo</span>
                     <i class="menu-arrow"></i>
                 </a>
-                <div class="collapse" id="icons">
+                <div class="collapse" id="otro-modulo">
                     <ul class="nav flex-column sub-menu">
                         <li class="nav-item"> <a class="nav-link" href="<?php echo BASE_STATIC; ?>home/otro-modulo/pagina1.php">Pagina 1</a></li>
                         <li class="nav-item"> <a class="nav-link" href="<?php echo BASE_STATIC; ?>home/otro-modulo/pagina2.php">Pagina 2</a></li>

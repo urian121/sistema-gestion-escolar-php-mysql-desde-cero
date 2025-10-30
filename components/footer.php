@@ -1,16 +1,13 @@
  <script src="<?php echo BASE_STATIC; ?>assets/vendors/js/vendor.bundle.base.js?v=<?php echo mt_rand(); ?>"></script>
- <script src="<?php echo BASE_STATIC; ?>assets/vendors/chart.js/chart.umd.js?v=<?php echo mt_rand(); ?>"></script>
  <script src="<?php echo BASE_STATIC; ?>assets/vendors/flot/jquery.flot.js?v=<?php echo mt_rand(); ?>"></script>
  <script src="<?php echo BASE_STATIC; ?>assets/vendors/flot/jquery.flot.resize.js?v=<?php echo mt_rand(); ?>"></script>
  <script src="<?php echo BASE_STATIC; ?>assets/vendors/flot/jquery.flot.categories.js?v=<?php echo mt_rand(); ?>"></script>
  <script src="<?php echo BASE_STATIC; ?>assets/vendors/flot/jquery.flot.fillbetween.js?v=<?php echo mt_rand(); ?>"></script>
  <script src="<?php echo BASE_STATIC; ?>assets/vendors/flot/jquery.flot.stack.js?v=<?php echo mt_rand(); ?>"></script>
- <script src="<?php echo BASE_STATIC; ?>assets/js/jquery.cookie.js" type="text/javascript?v=<?php echo mt_rand(); ?>"></script>
 
  <script src="<?php echo BASE_STATIC; ?>assets/js/off-canvas.js?v=<?php echo mt_rand(); ?>"></script>
  <script src="<?php echo BASE_STATIC; ?>assets/js/misc.js?v=<?php echo mt_rand(); ?>"></script>
  <script src="<?php echo BASE_STATIC; ?>assets/js/settings.js?v=<?php echo mt_rand(); ?>"></script>
- <script src="<?php echo BASE_STATIC; ?>assets/js/todolist.js?v=<?php echo mt_rand(); ?>"></script>
  <script src="<?php echo BASE_STATIC; ?>assets/js/hoverable-collapse.js?v=<?php echo mt_rand(); ?>"></script>
 
  <script src="https://cdn.datatables.net/2.0.3/js/dataTables.js"></script>

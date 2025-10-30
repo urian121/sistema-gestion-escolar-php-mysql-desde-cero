@@ -15,26 +15,32 @@ if (ENVIRONMENT === 'Development') {
     error_reporting(0);
 }
 
-
-
 // ----------------------------
 // Configuración de la base de datos
 // ----------------------------
 define('DB_HOST', 'localhost');
 define('DB_NAME', 'bd_sistema_gestion_escolar');
 define('DB_USER', 'root');
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', '4825');
 
 // ----------------------------
 // Configuración de las rutas
 // ----------------------------
 
-define('NAME_APP', 'sistema-gestion-escolar-php-mysql-desde-cero');
-define('BASE_PATH', __DIR__ . '../../');
-define('BASE_HOME', 'http://localhost/' . NAME_APP . '/');
-define('BASE_PATH_COMPONENTS', BASE_PATH . '/components');
+// Detectar automáticamente el nombre de la aplicación desde la ruta
+$app_name = basename(dirname(__DIR__));
+define('NAME_APP', $app_name); // Almacenando el nombre de la aplicación en una constante
+
+// Ruta base del proyecto (directorio padre del directorio settings)
+define('BASE_PATH', dirname(__DIR__) . '/');
+
+// URLs dinámicas basadas en el servidor actual
+define('BASE_HOME', 'http://' . $_SERVER['SERVER_NAME'] . '/' . NAME_APP . '/');
 define('BASE_STATIC', 'http://' . $_SERVER['SERVER_NAME'] . '/' . NAME_APP . '/');
-define('SETTINGS_BD', BASE_PATH . 'config/settingBD.php');
+
+// Rutas de archivos y directorios
+define('BASE_PATH_COMPONENTS', BASE_PATH . 'components');
+define('SETTINGS_BD', BASE_PATH . 'settings/settingBD.php');
 
 define('BASE_PATH_AVATAR_PROFESORES', BASE_PATH . '/assets/avatar_profesores');
 define('BASE_PATH_AVATAR_ESTUDIANTES', BASE_PATH . '/assets/avatar_estudiantes');
@@ -52,10 +58,10 @@ define('COMPONENTES_GLOBALES', BASE_PATH . 'components/components.php');
 // -------------------------------
 // Rutas Controllers POST --------
 // -------------------------------
-define('POST_FORM_CURSO', 'http://' . $_SERVER['SERVER_NAME'] . '/' . NAME_APP . '/controllers/ControllerGrados.php');
-define('POST_FORM_MATERIA', 'http://' . $_SERVER['SERVER_NAME'] . '/' . NAME_APP . '/controllers/ControllerMaterias.php');
-define('POST_FORM_PROFESOR', 'http://' . $_SERVER['SERVER_NAME'] . '/' . NAME_APP . '/controllers/ControllerProfesores.php');
-define('POST_FORM_ESTUDIANTE', 'http://' . $_SERVER['SERVER_NAME'] . '/' . NAME_APP . '/controllers/ControllerEstudiantes.php');
+define('POST_FORM_CURSO', BASE_STATIC . 'controllers/ControllerGrados.php');
+define('POST_FORM_MATERIA', BASE_STATIC . 'controllers/ControllerMaterias.php');
+define('POST_FORM_PROFESOR', BASE_STATIC . 'controllers/ControllerProfesores.php');
+define('POST_FORM_ESTUDIANTE', BASE_STATIC . 'controllers/ControllerEstudiantes.php');
 
 // ----------------------------
 // Configuración de zona horaria
